@@ -18,6 +18,8 @@ img {
     display: flex;
     overflow: hidden;
     width: 100%;
+    border-radius: 8px;
+    margin-top: 32px;
 }
 
 .item {
