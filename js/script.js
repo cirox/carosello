@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
         showImage(currentIndex - 1);
     }
 
-    // Aggiungi event listener per i pulsanti di scorrimento
     document.addEventListener('keydown', function (event) {
         if (event.key === 'ArrowRight') {
             nextImage();
